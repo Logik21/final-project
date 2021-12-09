@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+body {
+background-image: url("img_tree.gif"), url("paper.gif");
+background-color: #cccccc;
+}
+
+.header {
+font-family: 'Arimo', sans-serif;
+text-align: center; 
+color: blue;
+
+}
+
+.paragraph {
+font-family: 'Fuzzy Bubbles', cursive;
+text-align: center;
+border-style: double;
+border-color: tomato;
+background-color: thistle;
+color: blueviolet;
+
+}
+
+.header2 {
+font-family: 'Fuzzy Bubbles', cursive;
+text-align: center;
+border-color: black;
+border-style: groove;
+float: left;
+
+}
+
+.header3 {
+border-style: inset;
+
+
+}
+
+.paragraph2 {
+font-family: 'Fuzzy Bubbles', cursive;
+text-align: center;
+
+}
+
+.far {
+color: chartreuse;
+
+}
+
+.article {
+
+color: rgb(139, 0, 81);
+text-align: center;
+
+}
+
+aside {
+background-color: black; 
+font-family: 'Fuzzy Bubbles', cursive;
+float: left; 
+text-align: justify;
+color: ivory; 
+border-style: solid; 
+border-color: white;
+margin: 10%;
+padding: 10%;
+}
+
+.navigation {
+text-align: center; 
+color: black;
+border: white; 
+border-style: groove;
+overflow: hidden;
+}
+
+.aside {
+margin: 10%;
+padding: 10%;
+float: right; 
+text-align: right; 
+font-family: fantasy; 
+padding: 5px;
+border: crimson;
+border-style: double;
+
+}
+
+li {
+  
+display: inline;
+
+}
+
+ul {background-color: cornflowerblue;
+border-style: solid;
+}
+
+footer {background-color: cornflowerblue;
+border-style: solid;
+float: center;
+
+}
+
+img {opacity: inherit;}
