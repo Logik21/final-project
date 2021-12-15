@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+margin: 0%;
+box-sizing: border-box;
+}
+
+body {
+background-image: url("../images/honeycombbackground3.jpg");
+
+}
+
+nav {
+background-color: black;
+color: azure;
+
+}
+
+li {
+list-style-type: none;
+display: inline-block;
+
+}
+
+li a:hover:not(.active) {
+background-color: rgba(153, 153, 51, 0.925);
+
+}
+  
+.active {
+background-color: #04aa6d;
+  
+}
+  
+
+.headerbeelogo {
+float: right;
+size: 25%;
+
+}
+
+li a {
+display: block;
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Caveat Brush', cursive;
+list-style-type: none;
+
+}
+
+div {
+float: left;
+padding: 15px; 
+
+}
+
+img {
+width: 150px;
+height: 200px;
+
+}
+
+footer{
+list-style-type: none;
+padding: 14px 16px;
+background-color: black;
+color: azure;
+font-family: 'Lobster', cursive;
+overflow: hidden;
+display: inline-block;
+width: 100%;
+
+}
+
+.li0 {
+float: left;
+
+}
+
+.ul1 {
+float: right;
+
+}
+
+
+.gallery {
+width: 25%;
+
+}
+
+.fab {
+color: rgba(158, 8, 245, 0.979);
+text-align: center;
+
+}
+
+.container {
+width: 100%;
+
+}
+
+a {
+color: rgba(245, 241, 8, 0.979);
+
+}
+
+.desc {
+width: 100%;
+text-align: left;
+font-family: 'lobster two', cursive;
+color: azure;
+
+
+}
+
+.footerimage {
+float: left;
+width: 200px;
+
+}
+
+.checkbox {
+
+color: azure;
+
+}
+
+p {
+color: azure;
+border: black;
+border-style: solid;
+
+}
+
+#footer-center {
+text-align: center;
+
+}
