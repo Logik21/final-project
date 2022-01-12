@@ -4,59 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Bee's Accessories</title>
+    <script src="https://kit.fontawesome.com/49d1e8b417.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
 </head>
-<body> 
-
-  <nav>
-    <ul> 
+<body>
+  <!---beginning of header-->
+    <Header>
+        <img class="logo" src="images/beesyellowboldlogo.png" alt="Bee's Accessories Logo">
+        <h1>Bee's Accessories</h1>
+          <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+          </nav>
+        <a class="cta" href="contact.html"><button>Contact</button></a>
         
-        <li><a href="https://www.facebook.com/beesaccessorie">Bee's Accessories</a></li> 
-        <!---<img class="headerbeelogo" src="images/Beeslogo_262x262.jpeg" alt="Bee's Logo">--->
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="2for10.html">2 for 10</a></li>
-        <li><a href="sale.html">SALE</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-    </ul>
-</nav>
+            </Header>
+<!---end of header-->
 
-  <form action="/action_page.php">
-    <input type="checkbox" id="service1" name="service1" value="Style">
-    <label for="service1"> I would like personal styling</label><br>
-    <input type="checkbox" id="service2" name="service2" value="Event">
-    <label for="service2"> Styling for an event</label><br>
-    <input type="checkbox" id="service3" name="service3" value="Help">
-    <label for="service3"> Help finding right item (shoes,dress, ect.)</label><br><br>
-    <input type="submit" value="Submit">
-  </form> 
-    
-  <form action="/action_page.php">
-    <textarea name="message" style="width:200px; height: 150px;">How can I bee of assistance today?</textarea>
-    <br>
-    <input type="submit">
-  </form>
-
-<footer>
-  <nav>
-   <footer>    
-      <div class="container">
-        <img class ="footerimage"src="images/Beeslogo_262x262.jpeg" alt="">
-          <div id="footer-center">
-              <i class="fab fa-facebook"><a href="https://www.facebook.com/shaw.brittany.9">Let's Connect on FB!</a></i>
-              <i class="fab fa-instagram"><a href="https://www.instagram.com/brittany_b_shaw/">Follow Me on IG!</a></i>
-              <i class="fab fa-twitter"><a href="https://twitter.com/IAM_LS">Follow Me on Twitter</a></i>
-          </div>
-      <ul class="ul1">
-        <li class="li1"><a href="https://www.facebook.com/beesaccessorie">Bee's Accessories</a></li><br>
-        <li>123 FourFive Drive</li><br>
-        <li>Cancun, On The Map</li><br>
-      </ul>
+<!---beginning of content-->
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptates consectetur dolorum sit cum amet voluptatum provident cumque expedita et! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, illum.</p>
     </div>
-    </footer>
-  </nav>
-</footer>
+
+    <div class="container">
+      <div class="contactinfo">
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+    </div>
+
+    <div class="text">
+      <h3>Address</h3>
+        <p> 5425 Sugar Cane Road, <br>Owatonna, Minnesota,<br>55060</p>
+    </div>
+
+    <div class="box">
+      <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+    </div>
+
+    <div class="text">
+      <h3>Phone</h3>
+        <p>419-315-6789</p>
+    </div>
+
+    <div class="box">
+      <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+    </div>
+
+    <div class="text">
+      <h3>Email</h3>
+        <p>leseanshaw211@gmail.com</p>
+    </div>
+
+  <div class="contactform">
+    <form>
+      <h2>Send Message</h2>
+        <div class="inputbox">
+          <input type="text"  name=""  required="required">
+            <span>Full Name</span>
+  </div>
+
+  <div class="inputbox">
+    <input type="text"  name=""  required="required">
+        <span>Email</span>
+  </div>
+
+    <div class="inputbox">
+      <input type="text"  name=""  required="required">
+        <span>Type Your Message......</span>
+    </div>
+
+    <div class="inputbox">
+      <input type="submit"  name=""  value="Send">
+    </div>
+    </form>
+    </div>
+
+      <!---Beginning of Footer-->
+      <Footer class="footer"> 
+        <div class="containerf">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Online Shop</h4>
+              <ul>
+                <li><a href="#">bags</a></li>
+                <li><a href="#">watches</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links"></div>
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/IAM_LS"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/brittany_b_shaw/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/lesean-shaw-02927798/"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+        </div>
+      </Footer>
+      <!---End of Footer-->
+    
 </body>
 </html>
